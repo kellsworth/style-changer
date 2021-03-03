@@ -20,7 +20,7 @@ export default class TextContainer extends Component {
     return (
       <div className="textContainer">
         <textarea
-          style={{fontFamily: this.props.fontFamily, fontColor: this.props.fontColor, fontSize: this.props.fontSize}
+          style={{fontFamily: this.props.fontFamily, fontColor: this.props.fontColor, fontSize: this.props.fontSize}}
           onChange={this.updateText}
           value={this.state.text}
           placeholder="Start typing your thoughts here!"
